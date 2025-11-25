@@ -15,3 +15,14 @@ direction TB
 	    mostrar_estado()
     }
 ```
+
+## Clase Tablero
+```mermaid
+classDiagram
+direction TB
+    class tablero {
+	    int dimensiones
+	    int casillas
+	    mostrar_tablero()
+    }
+```
