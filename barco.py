@@ -20,4 +20,9 @@ class Barco:
         return str(self.nombre) + " de longitud " + str(self.longitud) + " ha recibido " + str(self.golpes_recibidos) + " golpes"
 
     def __str__(self):
-        self.mostrar_estado()
+        return  self.mostrar_estado()
+
+
+if __name__ == "__main__":
+    barco1 = Barco("Submarino", 1, 0)
+    print(barco1)
