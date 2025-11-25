@@ -3,7 +3,8 @@
 ## Anxo Vázquez Lorenzo
 
 ## Clase Barco
-```classDiagram
+```mermaid
+classDiagram
 direction TB
     class Barco {
 	    str nombre
